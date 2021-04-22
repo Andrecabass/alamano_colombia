@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alamano</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/web/site.css">
+    <link rel="stylesheet" href="css/web/normalize.css">
+    <link rel="stylesheet" href="css/web/header.css">
+
+    <link rel="stylesheet" href="css/web/tarjetas-product.css">
+    <link rel="stylesheet" href="css/web/info-product.css">
+
+
+    <link rel="stylesheet" href="css/web/footer.css">
+    <link rel="stylesheet" href="css/web/media-query.css">
+    <link rel="stylesheet" href="css/sweetalert2/sweetalert2.css">
+</head>
+
+<body>
+    <!------------Aqui va el header------------->
+
+    <header>
+        <div class="navegador">
+
+            <a class="navegador-logo" href="index.html">
+                <img class="navegador-logo__img" src="img/Logo-azul-nuevo-03.png" alt="alamano">
+            </a>
+
+            <div class="navegador-search">
+                <form class="navegador-search-form" action="" method="get">
+                    <input class="navegador-search-form__input" type="search" placeholder="Busca un producto">
+                    <button class="navegador-search-form__button" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <a href="login.html" class="navegador-login">
+                <div class="navegador-login__icon">
+                    <i class="fas fa-user "></i>
+                </div>
+            </a>
+
+            <a href="carrito.html" class="navegador-carrito">
+                <i class="fas fa-shopping-bag"></i>
+            </a>
+        </div>
+
+        <div class="navegador-movil">
+            <div class="navegador-movil-menu__icon">
+                <button id="mostrar-menu" class="abrir-menu"><i class="fas fa-bars"></i></button>
+            </div>
+
+            <div class="menu-nav">
+                <button id="cerrar-menu" class="cerrar-menu" aria-label="Cerrar">
+                    &times;
+                </button>
+                <ul class="cat-footer menu">
+                    <li><a href="oficina.html"><i class="fas fa-graduation-cap"></i><span> Escolar</span></a></li>
+                    <li><a href="oficina.html"><i class="fas fa-building"></i><span>Oficina</span></a></li>
+                    <li><a href="oficina.html"><i class="fas fa-palette"></i><span>Arte</span></a></li>
+                    <li><a href="oficina.html"><i class="fas fa-book"></i><span>Libros</span></a></li>
+                    <li><a href="oficina.html"><i class="fas fa-laptop"></i><span>Tecnologia</span></a></li>
+                    <li><a href="oficina.html"><i class="fas fa-birthday-cake"></i><span>Fiestas</span></a></li>
+                    <li><a href="oficina.html"><i class="fas fa-gifts"></i><span>Regalos</span></a></li>
+                </ul>
+            </div>
+
+            <div class="navegador-search-movil">
+                <form class="navegador-search-form" action="" method="get">
+                    <input class="navegador-search-form__input" type="search" placeholder="Busca un producto">
+                    <button class="navegador-search-form__button" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <nav class="categories-contain">
+            <ul class="categories">
+                <li><a href="oficina.html"><i class="fas fa-graduation-cap"></i><span> Escolar</span></a></li>
+                <li><a href="oficina.html"><i class="fas fa-building"></i><span>Oficina</span></a></li>
+                <li><a href="oficina.html"><i class="fas fa-palette"></i><span>Arte</span></a></li>
+                <li><a href="oficina.html"><i class="fas fa-book"></i><span>Libros</span></a></li>
+                <li><a href="oficina.html"><i class="fas fa-laptop"></i><span>Tecnologia</span></a></li>
+                <li><a href="oficina.html"><i class="fas fa-birthday-cake"></i><span>Fiestas</span></a></li>
+                <li><a href="oficina.html"><i class="fas fa-gifts"></i><span>Regalos</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------Aqui va el contenido principal------------>
+
+    <main class="contain">
+        <a href="https://wa.me/message/CQFDZP7JZVUYL1" class="btn-whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <div class="producto">
+            <div class="producto-photo">
+                <img src="img/Colores Faber Castell Caras y Colores x 12+3 und.png" alt="" srcset="">
+            </div>
+            <div class="producto-descripcion">
+                <div class="producto-descripcion-content">
+
+                    <div class="product">
+                        <h3 class="producto-descripcion__h3">Colores Faber Castell caras y colores x 12 + 3 und</h3>
+                        <i class="far fa-heart" _mstvisible="2"></i>
+                    </div>
+                    <h4 class="producto-descripcion__h4">Marca: Faber Castell</h4>
+                    <span class="price">$12.700</span>
+                    <p>Clásicos lápices de colores con cuerpo triangular cortos que facilitan la sujeción y proporciona
+                        una
+                        experiencia de pintado mas cómodo.</p>
+                    <div class="agregar">
+                        <div class="agregar-cantidad">
+                            <button class="indicadores menos" id="menos"><span>-</span></button>
+                            <div class="indicadores cant"><input type="text" id="myNumber" value="0"></div>
+                            <button class="indicadores mas" id="mas"><span>+</span></button>
+                        </div>
+                        <button class="card-boton-carrito">Agregar a la bolsa</button>
+
+                    </div>
+                </div>
+                <span class="politicas"><a href="#">Lee nuestra politica de cambio y devoluciones</a></span>
+            </div>
+        </div>
+
+        <div class="info-garanties">
+            <div class="contain-info-garanties">
+                <div class="garanties envio">
+                    <div class="garanties-img">
+                        <img src="img/Transporte.png" alt="" srcset="">
+                    </div>
+                    <div class="garanties-content">
+                        <span class="title-garanties">Envíos a toda colombia</span>
+                        <p>Rápido, seguro y rastreable.</p>
+                    </div>
+                </div>
+                <div class="garanties seguridad">
+                    <div class="garanties-img">
+                        <img src="img/Seguridad.png" alt="" srcset="">
+                    </div>
+                    <div class="garanties-content">
+                        <span class="title-garanties">Compra 100% segura</span>
+                        <p>Tus compras se procesan en servidores SSL</p>
+                    </div>
+                </div>
+                <div class="garanties payments">
+                    <div class="garanties-img">
+                        <img src="img/Forma-pago.png" alt="" srcset="">
+                    </div>
+                    <div class="garanties-content">
+                        <span class="title-garanties">Metodos de pago</span>
+                        <p>Recibimos tarjetas de crédito, debito y efectivo.</p>
+                    </div>
+                </div>
+                <div class="garanties tiempo">
+                    <div class="garanties-img">
+                        <img src="img/Tiempo-entrega.png" alt="" srcset="">
+                    </div>
+                    <div class="garanties-content">
+                        <span class="title-garanties">Tiempo de entrega</span>
+                        <p>Recibe tu pedido en 24 horas (en Soledad).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!----------------Aqui va el footer------------------->
+
+    <footer>
+        <div class="contain-footer">
+            <div class="boletin">
+                <span class="title-boletin">Suscribete a nuestro boletin</span>
+                <form class="boletin-form" action="" method="get" id="subs">
+
+                    <input type="email" placeholder="Escribe tu e-mail" class="input-boletin" id="email-subs">
+                    <input type="submit" class="subs-button" value="Suscribirme"></input>
+
+                </form>
+            </div>
+            <div class="section-info">
+                <div class="info-cuadros">
+                    <div class="cuadros">
+                        <span>Categorias</span>
+                        <ul class="cat-footer">
+                            <li><a href="#">Escolar</a></li>
+                            <li><a href="oficina.html">Oficina</a></li>
+                            <li><a href="#">Arte</a></li>
+                            <li><a href="#">Libros</a></li>
+                            <li><a href="#">Tecnologia</a></li>
+                            <li><a href="#">Fiestas</a></li>
+                            <li><a href="#">Regalos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-cuadros centro">
+                    <div class="cuadros">
+                        <span>Centro de ayuda</span>
+                        <ul class="cat-footer">
+                            <li><a href="#">Política de cambio y devoluciones</a></li>
+                            <li><a href="#">Preguntas frecuentes</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Política tratamiento de datos</a></li>
+                            <li><a href="#">¡Escribenos! PQR</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-cuadros">
+                    <div class="cuadros">
+                        <span>Contactanos</span>
+                        <ul class="cat-footer contacto">
+                            <li><a href="tel:+573014657673">Celular: 3014657673</a></li>
+                            <li><a href="mailto:contacto@alamano.com.co">Email: contacto@alamano.com.co</a></li>
+                        </ul>
+                        <span>Siguenos en redes</span>
+                        <div class="footer-redes">
+                            <a href="https://m.facebook.com/alamanocol" class="footer-redes-img" target="_blank">
+                                <img src="img/Facebook.png" alt="" srcset="">
+                            </a>
+                            <a href="https://www.instagram.com/alamanocol" class="footer-redes-img" target="_blank">
+                                <img src="img/Instagram.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-legal">
+                <a class="footer-logo" href="index.html">
+                    <img class="footer-logo__img" src="img/logo-blanco.png" alt="alamano">
+                </a>
+                <span class="copyright">Todos los derechos reservados 2021</span>
+                <div class="metod-pay">
+                    <div class="metod-pay-logos efecty">
+                        <img src="img/logo-efecty.svg" alt="" srcset="">
+                    </div>
+                    <div class="metod-pay-logos baloto">
+                        <img src="img/baloto-logo-01.svg" alt="" srcset="">
+                    </div>
+                    <div class="metod-pay-logos pse">
+                        <img src="img/pse-logo.png" alt="" srcset="">
+                    </div>
+                    <div class="metod-pay-logos american">
+                        <img src="img/American-Express-Logo.png" alt="" srcset="">
+                    </div>
+                    <div class="metod-pay-logos master">
+                        <img src="img/Mastercard-Logo.png" alt="" srcset="">
+                    </div>
+                    <div class="metod-pay-logos visa">
+                        <img src="img/Visa-Logo.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <!------------Aqui se declaran los script------------>
+    <script src="js/menu-nav.js"></script>
+    <script src="js/cabecera-scroll.js"></script>
+    <script src="js/border.js"></script>
+    <script defer src="js/all.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+
+</html>
