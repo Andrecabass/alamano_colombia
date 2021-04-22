@@ -1,0 +1,91 @@
+.contain {
+  background-color: var(--color-background);
+}
+
+.producto {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.producto-photo {
+  display: flex;
+  width: 40%;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.producto-photo img {
+  width: 100%;
+}
+
+.producto-descripcion {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem 1rem 2rem 0rem;
+  border-left: 2px solid #00183d;
+  padding-left: 2rem;
+}
+
+.producto-descripcion .politicas {
+  padding: 1rem 0rem;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  line-height: 1.5;
+}
+
+.producto-descripcion span a {
+  font-size: 1.1rem;
+  color: var(--color-resalt);
+}
+
+.producto-descripcion-content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1.5px solid #b1b1b177;
+  padding-bottom: 2rem;
+}
+
+.producto-descripcion-content p {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  color: var(--color-secundary);
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+.card-boton-carrito {
+  font-size: 1.3rem;
+  width: fit-content;
+}
+
+.producto-descripcion__h3 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.price {
+  font-size: 1.9rem;
+  color: var(--color-resalt);
+  margin-top: 1rem;
+  line-height: 1;
+}
+
+.producto-descripcion__h4 {
+  font-size: 1.4rem;
+  color: var(--color-secundary);
+  opacity: 0.5;
+  margin-top: 1rem;
+  font-weight: 100;
+}
+
+.product {
+  display: flex;
+}
+
+.product .fa-heart {
+  font-size: 2.2rem;
+  margin-left: 1rem;
+  margin-right: 1.2rem;
+}

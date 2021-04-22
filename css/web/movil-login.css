@@ -1,0 +1,5 @@
+@media screen and (max-width: 770px) {
+  .contain {
+    padding: 4rem 2rem;
+  }
+}

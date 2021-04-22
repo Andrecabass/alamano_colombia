@@ -1,0 +1,42 @@
+.menu-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 230px;
+  background-color: var(--color-primary);
+  padding: 1rem 2rem;
+  transform: translateX(-250px);
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.menu-nav.visible {
+  transform: translateX(0);
+}
+
+.menu-nav ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 2.5rem;
+}
+
+.menu-nav li {
+  margin-bottom: 1.2rem;
+}
+
+.menu-nav span {
+  margin-left: 1rem;
+}
+
+.cerrar-menu {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 0;
+}

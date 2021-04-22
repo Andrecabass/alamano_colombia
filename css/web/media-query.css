@@ -1,0 +1,271 @@
+@media screen and (max-width: 1499px) {
+  .contenedor-tarjetas,
+  .contain-footer,
+  .contain-info-garanties,
+  .navegador,
+  .contain-banner,
+  .producto {
+    max-width: 1280px;
+  }
+
+  .categories {
+    max-width: 1000px;
+  }
+
+  .correcion {
+    max-width: 1000px;
+  }
+  .contain-login {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contain-login {
+    width: 50%;
+  }
+
+  .contain-login p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .categories {
+    max-width: 1000px;
+  }
+
+  .correcion {
+    max-width: 1000px;
+  }
+  .contain-footer,
+  .contenedor-tarjetas,
+  .contain-info-garanties,
+  .navegador,
+  .contain-banner,
+  .producto {
+    max-width: 1280px;
+  }
+  .contain-section {
+    max-width: 1280px;
+  }
+  .contain-login {
+    width: 35%;
+  }
+
+  .info-cuadros {
+    width: 33.333%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .contain-login {
+    width: 30%;
+  }
+
+  .contain-login p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .categories-contain,
+  .navegador-search {
+    display: none;
+  }
+
+  .banner {
+    height: 150px;
+  }
+  .banner img {
+    height: 150px;
+  }
+
+  .contain-login {
+    width: auto;
+  }
+
+  .contain-login p {
+    font-size: 1.3rem;
+  }
+
+  .centro {
+    border-right: none;
+    border-left: none;
+    border-top: solid 1px var(--color-background);
+    border-bottom: solid 1px var(--color-background);
+  }
+
+  .section-legal {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-left: 0px;
+  }
+
+  .title-product h2 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .navegador-movil {
+    display: flex;
+    width: 100%;
+  }
+
+  .input-search {
+    width: 245px;
+    padding: 0rem 1.2rem;
+  }
+
+  header {
+    padding-bottom: 1rem;
+  }
+
+  .navegador-login__icon {
+    margin-left: auto;
+  }
+
+  .navegador-login {
+    margin-left: 0rem;
+    margin-right: 0;
+    order: -1;
+  }
+
+  .fa-user {
+    font-size: 1.8rem;
+  }
+  .fa-shopping-bag {
+    font-size: 1.8rem;
+  }
+
+  .navegador {
+    justify-content: space-between;
+  }
+
+  .navegador-search {
+    margin-left: 0px;
+  }
+
+  .navegador-carrito {
+    display: flex;
+  }
+
+  .contain {
+    padding: 0.5rem;
+  }
+
+  .tarjetas {
+    width: 165px;
+    margin: 1rem 0.5rem;
+  }
+
+  .name-product {
+    font-size: 1.2rem;
+  }
+
+  .footer-tarjetas {
+    flex-wrap: wrap;
+  }
+  .footer-tarjetas-boton {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .tarjetas {
+    height: auto;
+  }
+
+  .section-info {
+    padding: 0;
+  }
+
+  .metod-pay {
+    width: 271px;
+    margin-left: 0px;
+  }
+
+  .logo-alamano {
+    max-width: 130px;
+  }
+
+  .boletin-form {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .info-cuadros {
+    width: auto;
+  }
+  .navegador-search-movil {
+    display: flex;
+  }
+
+  .navegador-search-form {
+    width: 100%;
+  }
+  .navegador-search-form__button {
+    margin-left: auto;
+  }
+  .navegador-search-form__input {
+    width: 100%;
+  }
+
+  .login {
+    padding: 2rem;
+  }
+
+  .carrito-vacio {
+    padding: 1.5rem 1rem;
+  }
+
+  .carrito-vacio__h3 {
+    font-size: 1.5rem;
+  }
+
+  .navegador-login__icon span {
+    display: none;
+  }
+  .navegador-favorite .fa-heart {
+    margin-left: auto;
+    font-size: 1.8rem;
+    display: none;
+  }
+
+  .navegador-favorite {
+    display: none;
+  }
+
+  .filtros {
+    display: none;
+  }
+
+  .producto {
+    flex-wrap: wrap;
+  }
+
+  .producto-descripcion {
+    flex-direction: column;
+    width: 100%;
+    border-left: none;
+    border-top: 2px solid #00183d;
+    padding-top: 2rem;
+  }
+
+  .metod-pay-logos {
+    margin-bottom: 1rem;
+  }
+
+  .producto .card-boton-carrito {
+    width: fit-content;
+    margin-top: 0;
+  }
+
+  .producto-descripcion__h3 {
+    font-size: 2rem;
+  }
+
+  .producto-photo {
+    width: 100%;
+  }
+}
